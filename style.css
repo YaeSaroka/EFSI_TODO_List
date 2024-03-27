@@ -31,7 +31,7 @@ h1 {
     color: #000000;
     margin: 0;
     font-size: 24px;
-    animation: shine 1s infinite alternate; /* Ajustar la duración de la animación */
+    animation: shine 1s infinite alternate; 
 }
 
 .input-container {
