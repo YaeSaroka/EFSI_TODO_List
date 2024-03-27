@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <sub style="padding:10px; color:grey; margin-left:-6px;">ordená todas tus tareas</sub>
+        <div class="input-container">
+            
+            <input type="text" id="nuevo" placeholder="Nueva tarea">
+             <button id="boton2" onclick="nuevaTarea()">Agregar</button>
+             <button id="boton1" onclick="masrapido()">¿Cuál fue mi tarea más rápida?</button>
+            <!---<button type="submit"  onclick="nuevaTarea()" value="Agregar">-->
+        </div>
+        <div class="tareas-container" id="tareas-container"></div>
+        <div class="rapido-container" id="rapido-container"></div>
+    </div>
+
+    
+   
+</body>
+</html>

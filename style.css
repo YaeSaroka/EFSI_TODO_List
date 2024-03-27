@@ -1,0 +1,95 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000000;
+    margin: 0;
+    font-size: 24px;
+    animation: shine 1s infinite alternate; /* Ajustar la duración de la animación */
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px; 
+    border: 1px solid #777676;
+    border-radius: 10px;
+}
+
+#boton2 {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 1s ease;
+}
+
+#boton1{
+    padding: 10px 20px;
+    margin-left: 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: #ff8fd0;
+    color: #000000;
+}
+
+@keyframes shine {
+    from {
+        color: #000000;
+        text-shadow: 0 0 3px #fff, 0 0 5px #fff, 0 0 8px #fff; 
+    }
+    to {
+        color: #940353; 
+        text-shadow: 0 0 8px #ff8fd0, 0 0 12px #ff8fd0, 0 0 15px #ff8fd0; 
+    }
+}
+
+
+.tachado {
+    text-decoration: line-through;
+}
+
